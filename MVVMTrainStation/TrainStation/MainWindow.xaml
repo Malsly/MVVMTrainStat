@@ -1,0 +1,18 @@
+﻿<Window x:Class="TrainStation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrainStation"
+        xmlns:views="clr-namespace:TrainStation.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <views:PassangerView x:Name = "PassangerViewControl" Loaded = "PassangerViewControl_Loaded"/>
+        <views:TrainView x:Name = "TrainViewControl" Loaded = "TrainViewControl_Loaded"/>
+        <views:VanView x:Name = "VanViewControl" Loaded = "VanViewControl_Loaded" />
+        <views:SeatView x:Name = "SeatViewControl" Loaded = "SeatViewControl_Loaded" />
+        <views:TicketController x:Name = "TicketViewControl" Loaded = "TicketViewControl_Loaded" />
+    </Grid>
+</Window>

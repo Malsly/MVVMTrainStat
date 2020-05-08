@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "io+6Z81Zhgvb6AIqN6uf9rPxToV7HnfttBaTWBrLc23UiJTWc4fB+YVmQfiWQ0EDY2UOWYZ1NeWQRqcFoUNOsw==",
+  "success": true,
+  "projectFilePath": "D:\\univer\\AAA\\PRKZ\\MVVMTrainStation\\MVVMTrainStation\\RepositoryUoW\\RepositoryUoW.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Макс\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Макс\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

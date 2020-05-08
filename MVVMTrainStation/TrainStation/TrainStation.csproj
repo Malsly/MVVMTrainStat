@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RepoUoW\RepoUoW.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\PassangerView.xaml.cs">
+      <DependentUpon>PassangerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SeatView.xaml.cs">
+      <DependentUpon>SeatView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TicketView.xaml.cs">
+      <DependentUpon>TicketView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TrainView.xaml.cs">
+      <DependentUpon>TrainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\VanView.xaml.cs">
+      <DependentUpon>VanView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Views\PassangerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SeatView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TicketView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TrainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\VanView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>
