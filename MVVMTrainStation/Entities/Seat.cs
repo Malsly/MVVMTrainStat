@@ -12,7 +12,6 @@ namespace Entities
     {
         public int Id { get; set; }
         public int Number { get; set; }
-        public TypeAndPrice TypeAndPriceID { get; set; }
         public string Type { get; set; }
         public Boolean IsOccuped { get; set; }
     }

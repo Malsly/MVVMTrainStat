@@ -16,6 +16,7 @@ namespace Entities
         public Train TrainId { get; set; }
         public Seat SeatId { get; set; }
         public string PlaceArrival { get; set; }
+        public Station Station { get; set; }
 
     }
 }

@@ -12,8 +12,6 @@ namespace Entities
     {
         public int Id { get; set; }
 
-        public ClassAndPrice ClassAndPriceId { get; set; }
-
         public ICollection<Seat> SeatList { get; set; }
 
         public string Class { get; set; }

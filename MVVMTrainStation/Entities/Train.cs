@@ -17,6 +17,6 @@ namespace Entities
         public string PlaceArrival { get; set; }
         
         public ICollection<Van> VanList { get; set; }
-        public RoutePriceDate RoutePriceDateId { get; set; }
+        public string Route { get; set; }
     }
 }
